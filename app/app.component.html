@@ -1,0 +1,6 @@
+<button (click)="add()" >ADD ITEM TO SEE IT FADE IN</button>
+
+<div *ngFor="let item of unchecked">
+   <span @fade >Item: {{ item }}</span>
+</div> 
+
